@@ -12,7 +12,7 @@ define (["N/record","N/https","N/log" ] , function(record,https,log){
         var contactsApi = "/crm/v3/objects/contacts"
         var queryparams = "?properties=firstname&properties=lastname"
         var ApiUrl = baseurl + contactsApi + queryparams
-        var accesstoken = "pat-na1-591dd51f-675c-4d65-8fd2-b2ae2f88227f"
+        var accesstoken = "xyz"
         var header = {
             "Accept": "*/*",
             "Content-Type": "application/json",
