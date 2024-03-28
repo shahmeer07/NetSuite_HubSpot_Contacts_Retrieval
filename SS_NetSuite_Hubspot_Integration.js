@@ -5,7 +5,7 @@
 
 define (["N/record","N/https","N/log" ] , function(record,https,log){
 
-    var baseurl = "https://api.hubapi.com"
+    var baseurl =  "https://api.hubapi.com"
 
     function retriveContactsfromhubspot(){
 
